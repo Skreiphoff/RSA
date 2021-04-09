@@ -85,7 +85,7 @@ int main() {
         decryptedText[i] = decrypt(encryptedText[i], d, n);
     }
     end_time = clock();
-    printf("\nTime 2 %f \n", (end_time - start_time) / CLOCKS_PER_SEC);
+    printf("\nTime %f \n", (end_time - start_time) / CLOCKS_PER_SEC);
 
 
 //    cout << "\n\nTHE DECRYPTED MESSAGE IS:" << endl;
